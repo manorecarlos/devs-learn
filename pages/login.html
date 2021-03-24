@@ -15,16 +15,27 @@
     <div class="limiter">
         <div class="container-login">
             <div class="wrap-login">
-                <form action="" class="form-login">
-                    <div class="form-title">Login</div>
+                <form action="" class="form-login" method="post">
+                    <div class="form-title">Dev Learn</div>
 
                     <div class="wrap-input">
                         <div class="form-input">Usuário</div>
+                        <input type="text" name="user" required>        
                     </div>
 
                     <div class="wrap-input">
                         <div class="form-input">Senha</div>
+                        <input type="text" name="password" required> 
                     </div>
+
+                    <button type="submit">Login</button>
+
+                    <div class="new-user">
+                        <a href="/pages/register.html">
+                            Não tenho cadastro
+                        </a>
+                    </div>
+
                 </form>
             </div>
         </div>
